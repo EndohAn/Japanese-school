@@ -63,8 +63,10 @@ a {
   white-space: nowrap;
   z-index: 2;
   padding: 24px 8px;
-  transition: 0.3s linear;   
+  transition: 0.3s linear;  
+  text-shadow: .05em 0 #000, -.05em 0 #000, 0 .05em #000, 0 -.05em #000;
 }
+
 
 .btn:hover .btn__circle {
   transform: scale(0);
